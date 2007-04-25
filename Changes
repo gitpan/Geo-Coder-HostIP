@@ -4,3 +4,6 @@ Revision history for Perl extension Geo::Coder::HostIP.
 	- original version; created by h2xs 1.23 with options
 		-X Geo::Coder::HostIP
 
+0.02  Tue Apr 24 17:14:00 2007
+        - Decided some documentation in POD would be nice. Also made the GoogleMap() fucntion
+	  a little bit better
