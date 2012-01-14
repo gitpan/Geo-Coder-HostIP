@@ -1,5 +1,5 @@
-Geo-Coder-HostIP version 0.02
-=============================
+Perl module Geo::Coder::HostIP
+==============================
 
 Geo::Coder::HostIP is designed to provide a Perl OO interface to the
 hostip.org project's API for retrieving geocoding information from an
