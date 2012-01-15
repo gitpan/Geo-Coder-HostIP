@@ -1,5 +1,5 @@
 ---
-abstract: 'Object-Oriented Retrival of IP based geocoding info'
+abstract: 'get geocoding info for an IP address'
 author:
   - 'root <root@>'
 build_requires:
@@ -17,5 +17,7 @@ no_index:
   directory:
     - t
     - inc
-requires: {}
-version: 0.03
+requires:
+  Carp: 0
+  LWP::UserAgent: 0
+version: 0.04
