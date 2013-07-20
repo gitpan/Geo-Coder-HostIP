@@ -4,9 +4,9 @@
       "root <root@>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "ExtUtils::MakeMaker version 6.68, CPAN::Meta::Converter version 2.131560",
    "license" : [
-      "unknown"
+      "perl_5"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -22,21 +22,26 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : 0
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : 0
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "runtime" : {
          "requires" : {
-            "Carp" : 0,
-            "LWP::UserAgent" : 0
+            "Carp" : "0",
+            "LWP::UserAgent" : "0"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.04"
+   "resources" : {
+      "repository" : {
+         "url" : "https://github.com/neilbowers/Geo-Coder-HostIP"
+      }
+   },
+   "version" : "0.05"
 }
